@@ -162,3 +162,8 @@ gitlab-runner register \
      --name chat-back-develop \
      --tag-list chat-back-develop \
      --executor shell
+
+
+Comando para ver la conexion de los puertos
+
+netstat -ltup
