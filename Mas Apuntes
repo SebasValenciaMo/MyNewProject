@@ -1,0 +1,164 @@
+Se ubica en la ruta que se necesita clonar el proyecto se copia la ruta de Gitlab
+
+git clone git@gitlab.groupcos.com:armando.celis/appencuestasatisfaccionback.git --branch=QA
+
+
+- Se da permisos
+
+chown nginx:nginx appencuestasatisfaccionback -R
+
+chmod 775 appencuestasatisfaccionback -R
+
+chmod 777 appencuestasatisfaccionback/storage -R
+
+composer install --req-platform-ignore
+
+
+Dentro del proyecto
+
+composer install
+Composer update
+
+cd public
+
+cd /etc/nginx
+
+cd conf.d/
+
+grep server_name *.conf
+
+- se validan los puertos usados
+
+- se copia archivo para editar
+
+cp backend_coach.conf backend_appencuesta.conf
+
+- nos ubicamos en conf.d
+
+vim backend_appencuesta.conf
+
+- se edita archivo
+
+systemctl reload nginx
+
+systemctl status firewalld
+
+- Validar puertos agregados
+
+firewall-cmd --list-all
+
+- se agrega el puerto
+
+firewall-cmd --zone=public --add-port=8086/tcp --permanent
+
+- recargar puerto
+
+firewall-cmd --reload
+
+se copia el env
+
+- se valida en que ruta esta
+
+ll /tmp
+
+Se copia el .env en la ruta
+
+cp /tmp/env /var/www/mios/mios-backend/appencuestasatisfaccionback/ - ejemplo
+
+entramos a la ruta
+
+cd /var/www/mios/mios-backend/appencuestasatisfaccionback/
+
+- renombramos el archivo env
+
+mv env .env
+
+- le asignamos permisos a env
+
+chmod 775 .env -R
+
+chown nginx:nginx .env -R
+
+validar que storage tenga full permisos
+
+chmod 777 storage -R
+
+se edita .env en APP_URL se pone la ip y el puerto
+
+vim .env
+
+APP_URL=http://172.17.8.12:8086
+
+
+
+DNS
+172.70.7.11
+172.17.8.200
+10.24.1.11
+172.60.7.10
+
+
+NAS Física
+172.17.8.40
+D3v0ps2020+*
+harry.cuesta
+
+Comandos para avanzar en el despliegue de self-managment
+git add -a -m "test"
+git commit -a -m "test"
+
+
+
+grep server_name /etc/nginx/conf.d/*.conf (Para buscar los servers name existentes en esta Ruta)
+sudo /usr/sbin/useradd -m -g wheel -s /bin/bash -c "Yessica Carrera" yessica.carrera (Creacion de un usuario en linux)
+mysql -u Architect -h 172.17.7.141 -p (-u = user -h = host -p = pass)
+grep DB_HOST */.env
+useradd -m -g wheel -s /bin/bash -c "Cristian" cristianwp
+ssh -o TCPKeepAlive=yes -o ServerAliveInterval=15 root@172.16.7.206
+
+
+Ingresar al Ambiente Solicitado
+
+-Ruta: cd /var/www/mios/mios-frontend/
+       cd mios-front-v2
+       git status 
+       git pull
+       npm install
+       ng build --prod --output-path=dist-temp/Mios-v2-front
+
+       Cambiar las carpetas
+       
+       Inicialmente eliminar la carpeta dist-old
+       rm -rf dist-old
+       seguido de esto pasar la carpeta dist a dist-old y la carpeta dist-temp a dist
+       mv dist dist-old
+       mv dist-temp dist
+
+Configuración del Archivo .gitlab-ci.yml
+
+stage:
+    - develop
+deploy:
+only:
+    - develop
+    - merge request
+
+ stage: develop
+ script:
+    - cd /var/www/mios/mios-backend/mios-agendamientos-back
+    - git pull
+
+ tags:
+    - agendamientos-back-develop
+
+
+Registro de gitlab en el servidor
+
+gitlab-runner register \
+     --tls-ca-file=/etc/gitlab-runner/cert/gitlab.groupcos.com.cert.crt \
+     --non-interactive \
+     --url https://gitlab.groupcos.com \
+     --registration-token T5kK2xRKaeScXPGsDqc4 \
+     --name chat-back-develop \
+     --tag-list chat-back-develop \
+     --executor shell
