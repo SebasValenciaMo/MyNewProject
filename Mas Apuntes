@@ -167,3 +167,7 @@ gitlab-runner register \
 Comando para ver la conexion de los puertos
 
 netstat -ltup
+
+Comando para ver el historial de los merge
+
+git log
