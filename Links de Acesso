@@ -1,0 +1,9 @@
+https://helpdesk.groupcos.com/index.php?redirect=%2Ffront%2Fhelpdesk.public.php&error=3 DLPI
+https://172.17.7.2:9440/console/#login Nutanix Site7
+https://172.30.7.139:9440/console/#login Nutanix Cra 7
+http://graphana.groupcos.com:3000/login Grafana
+https://172.17.8.27:9443/#!/home Portainer
+http://appmaster.groupcos.com/appmaster/index.php Appmaster
+https://172.17.8.20:8443/#!/login HYCU
+https://bookstack.groupcos.com/login Bookstack
+https://gitlab.groupcos.com/ Gitlab
