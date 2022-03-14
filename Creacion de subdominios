@@ -1,0 +1,22 @@
+Hostname Campañas Quality
+
+backend-appencuesta.conf:    server_name 172.17.8.12:8086   qa.backendappencuestas.groupcos.com
+backend_coach.conf:    server_name 172.17.8.12:8083  qa.backcoach.groupcos.com
+backend_crm_axacol.conf:    server_name 172.17.8.12:8081 qa.backcrmaxacol.groupcos.com
+front_api.conf:    server_name 172.17.8.12:8085  Preguntar a camilo
+chat-back.conf:    server_name 172.17.8.12:8087  
+face-recognition.conf:    server_name 172.17.8.12:8082 (front)
+
+
+Hostname Campañas Produccion
+
+appencuestas-front.conf:    server_name 172.17.8.6:8083
+backend_appencuesta.conf:    server_name 172.17.8.6:8082
+backend_vivamos.conf:    server_name 172.17.8.6:2050   No solicitar, sale por apigateway
+front-vivamoswp.conf:    server_name 172.17.8.6:8081 Eliminar de produccion
+
+
+Hostname campañas Develop
+
+mios-back-face.conf:    server_name 172.17.9.133:3000
+crm-axacol-back.conf:    server_name 172.17.9.133:80
