@@ -154,6 +154,10 @@ only:
 
 Registro de gitlab en el servidor
 
+Hacemos un vim vim /etc/gitlab-runner/config.toml
+
+Despues,  gitlab-runner register \
+
 gitlab-runner register \
      --tls-ca-file=/etc/gitlab-runner/cert/gitlab.groupcos.com.cert.crt \
      --non-interactive \
@@ -162,6 +166,25 @@ gitlab-runner register \
      --name chat-back-develop \
      --tag-list chat-back-develop \
      --executor shell
+     
+     Actualizar y que quede igual
+     [[runners]]
+  name = "miosportaltrans-front-develop"
+  url = "https://gitlab.groupcos.com"
+  token = "VS4LyU4vxNLFxgLUnrs3"
+  tls-ca-file = "/etc/gitlab-runner/cert/gitlab.groupcos.com.cert.crt"
+  executor = "shell"
+  [runners.custom_build_dir]
+  environment = ["GIT_SSL_NO_VERIFY=1"]
+  [runners.cache]
+    [runners.cache.s3]
+    [runners.cache.gcs]
+    [runners.cache.azure]
+    
+    
+Configurar el correoe    
+git config  user.email "c.rodriguez@montechelo.com.co"
+git config user.name "Camilo Rodriguez"
 
 
 Comando para ver la conexion de los puertos
