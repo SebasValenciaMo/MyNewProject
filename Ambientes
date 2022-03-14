@@ -1,0 +1,219 @@
+--------------------------------
+* DNS PRINCIPAL MONTECHELO 
+--------------------------------
+
+10.24.1.11 - Principal
+172.17.8.200 - Contingencia
+172.70.7.11 - Secundario site 7
+172.60.7.10 - Site 6
+
+--------------------------------
+MIOS
+--------------------------------
+
+* QA - 172.17.8.12
+* Host - DEV_MIOS_MICROSERVICES_QUALITY
+
+qa-auth.groupcos.com; 
+qa-bpms.groupcos.com
+qa-cartera.groupcos.com
+qa-compras.groupcos.com
+qa-email.groupcos.com
+qa-express.groupcos.com
+qa-notifications.groupcos.com - Mailcore
+qa-mios.groupcos.com - CIU
+qa-nomina.groupcos.com
+qa-pqrs.groupcos.com
+qa-proveedores.groupcos.com
+qa-reportes.groupcos.com
+qa-rrhh.groupcos.com
+qa-juridico.groupcos.com
+qa-calidad.groupcos.com 
+qa-portransaccional.groupcos.com
+qamios.groupcos.com - Front
+qa-agendamientos.groupcos.com 
+qa-sfm.groupcos.com
+qa-vicidial.groupcos.com
+qa-coach.groupcos.com
+qa-crmaxacol.groupcos.com
+qa-healthv2.groupcos.com
+qa-chat.groupcos.com
+qa-backencuestas.groupcos.com - back
+qa-encuenstas.groupcos.com - front
+
+docker
+qa-face-recognition.groupcos.com
+qa-fr.groupcos.com
+
+-----
+
+http://qa.mysoul.software
+http://face-qa.mysoul.software
+http://self-qa.mysoul.software
+http://portal-qa.mysoul.software
+
+-----
+
+https://apigateway.outsourcingcos.com/v1/ms/qa/juridico/
+https://apigateway.outsourcingcos.com/v1/ms/qa/rrhh/
+https://apigateway.outsourcingcos.com/v1/ms/qa/notificaciones/
+https://apigateway.outsourcingcos.com/v1/ms/qa/email/
+https://apigateway.outsourcingcos.com/v1/ms/qa/ciu/
+https://apigateway.outsourcingcos.com/v1/ms/qa/nomina/
+https://apigateway.outsourcingcos.com/v1/ms/qa/pqrs/
+https://apigateway.outsourcingcos.com/v1/ms/qaexpress/
+https://apigateway.outsourcingcos.com/v1/ms/qa/calidad/
+https://apigateway.outsourcingcos.com/v1/ms/qa/proveedores/
+https://apigateway.outsourcingcos.com/v1/ms/qa/auth/
+https://apigateway.outsourcingcos.com/v1/ms/qa/compras/
+https://apigateway.outsourcingcos.com/v1/ms/qa/bpms/
+https://apigateway.outsourcingcos.com/v1/ms/qa/cartera/
+https://apigateway.outsourcingcos.com/v1/ms/qa/reportes/
+https://apigateway.outsourcingcos.com/v1/ms/qa/agendamientos/
+https://apigateway.outsourcingcos.com/v1/ms/qa/coach/
+https://apigateway.outsourcingcos.com/v1/ms/qa/axacolpatria/
+https://apigateway.outsourcingcos.com/v1/ms/qa/health/
+
+* PRE-MASTER - 172.17.8.13
+* Host - DEV_MIOS_MICROSERVICES_PREPROD
+
+pre-auth.groupcos.com 
+pre-bpms.groupcos.com 
+pre-cartera.groupcos.com 
+pre-compras.groupcos.com 
+pre-email.groupcos.com 
+pre-express.groupcos.com 
+pre-notifications.groupcos.com - Mailcore
+pre-ciu.groupcos.com - CIU
+pre-nomina.groupcos.com 
+pre-pqrs.groupcos.com 
+pre-proveedores.groupcos.com 
+pre-reportes.groupcos.com 
+pre-rrhh.groupcos.com 
+pre-juridico.groupcos.com 
+pre-mios.groupcos.com - Front
+pre-calidad.groupcos.com 
+pre-portransaccional.groupcos.com 
+pre-agendamientos 
+pre-sfm.groupcos.com 
+pre-vicidial.groupcos.com 
+pre-chatcrm.groupcos.com 
+pre-compras.groupcos.com 
+pre-coach.groupcos.com
+pre-crmaxacol.groupcos.com
+pre-healthv2.groupcos.com
+pre-chat.groupcos.com
+pre-backencuestas.groupcos.com - back
+pre-encuestas.groupcos.com - front
+
+docker
+
+pre_face-recognition.groupcos.com - front
+prefc-.groupcos.com - backend
+
+* PRODUCCION - 172.17.8.6
+* Host - DEV_MIOS_MICROSERVICES_PROD
+
+backendbpms.groupcos.com
+backendcartera.groupcos.com
+backendmailcore.groupcos.com - notificaciones
+backendemail.groupcos.com - email canal 
+backendexpress.groupcos.com 
+backendmios.groupcos.com
+backendnomina.groupcos.com
+backendpqrs.groupcos.com 
+backendreportes.groupcos.com
+backendrrhh.groupcos.com
+mysoul.groupcos.com
+backendproveedores.groupcos.com
+backendjuridico.groupcos.com
+portal-transaccional.groupcos.com
+backend-vicidial.groupcos.com
+backendchatcrm.groupcos.com
+backendcompras.groupcos.com
+backendcalidad.groupcos.com
+prod-self-management.groupcos.com
+prod-auth.groupcos.com
+backendagendamientos.groupcos.com
+backendcoach.groupcos.com
+backendcrmaxacol.groupcos.com
+backendhealthv2.groupcos.com
+backendchat.groupcos.com
+backendencuestas.groupcos.com - back
+encuestas.groupcos.com - front
+
+Docker
+backend-face-recognition.groupcos.com
+face-recognition.groupcos.com - front
+
+Portal Trans produccion - 172.17.8.24 
+
+* DEMO - 172.17.9.181
+* Host - DEV_MIOS_MICROSERVICES_DEMO
+
+demo-bpms.groupcos.com
+demo-cartera.groupcos.com
+demo-express.groupcos.com
+demo-email.groupcos.com
+demo-mailcore.groupcos.com
+demo-rrhh.groupcos.com
+demo-mios.groupcos.com
+demo-nomina.groupcos.com
+demo-pqrs.groupcos.com
+demo-reportes.groupcos.com
+demo.groupcos.com
+demo-proveedores.groupcos.com
+demo-juridico.groupcos.com
+demo-portal-transaccional.groupcos.com
+demo-vicidial.groupcos.com
+demo-chatcrm.groupcos.com
+demo-compras.groupcos.com
+demo-calidad.groupcos.com
+demo-agendamientos.groupcos.com
+demo-coach.groupcos.com
+demo-healthv2.groupcos.com
+demo-chat.groupcos.com
+demo-backencuestas.groupcos.com - back
+demo-encuestas.groupcos.com - front
+
+Docker
+demo-face-recognition.groupcos.com - front
+demo-fr.groupcos.com - back
+
+Antiguo demo y pre-master / Nutanix  DEV_MIOS_DEMO_QA
+nuevo demo / Nutanix DEV_MIOS_MICROSERVICES_DEMO
+
+* DEVELOP - 172.17.9.133
+* HOST    - DEV_MIOS_MICROSERVICES_QA
+
+back-microsbpms.groupcos.com
+back-microcartera.groupcos.com
+back-micromios.groupcos.com
+micromios.groupcos.com
+back-microexpress.groupcos.com
+micro-email.groupcos.com 
+micro-auth.groupcos.com
+back-micronomina.groupcos.com
+back-micromailcore.groupcos.com
+back-microvicidial.groupcos.com
+back-micropqrs.groupcos.com
+back-microreportes.groupcos.com
+back-microrrhh.groupcos.com
+self-management.groupcos.com
+back-proveedores.groupcos.com
+back-juridico.groupcos.com
+dev-portal-transaccional.groupcos.com
+back-chatcrm.groupcos.com
+back-compras.groupcos.com
+back-calidad.groupcos.com
+back-agendamientos.groupcos.com
+back-coach.groupcos.com
+back-crmaxacol.groupcos.com
+back-healthv2.groupcos.com
+back-chat.groupcos.com
+back-encuestas.groupcos.com - back
+dev-encuestas.groupcos.com - front 
+
+Docker
+back-face-recognition.groupcos.com 
+dev-face-recognition.groupcos.com
