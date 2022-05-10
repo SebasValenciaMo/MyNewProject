@@ -1,0 +1,35 @@
+Linux.
+-entendimientos del inid.d
+-filesystem
+-memoria/almacenamiento
+-administracion de I/O
+-entendimiento del systemd
+-redes basicas y Modelo OSI
+
+instalaciones de SO
+-ubuntu
+-opensuse
+-centos 7
+-windows
+
+Terminal
+comando para poder ejecutar las siguiente tareas.
+-manipulacion y creacion de archivos.
+-monitorero del sistema
+-rendimiento del sistema operativo. 
+
+Motores web
+-IIS
+-Nginx
+-Apache
+-tomcat
+-caddy
+
+para organizar operacion y tener mas claro el proceso de despliegue, mi recomendacion es la siguiente:
+
+Aprender GIT, practicar con archivos en texto plano y entender la logica de versionamiento.
+realizar procesos de despliegue con projectos laravel, lumen, nodejs, proyectos de JS, esto ayudara a enterder mejor los procesos de instalacion y despliegue de los backend, es necesario instalar todos los paquetes y librerias desde cero, la mejor guia es subir todo un proyecto desde cero, existen guias en internet de como subir un proyecto php con nginx y php-fpm, recomiendo seguirlo.
+
+instalaciones de los motores web y entender publicando projectos, tanto en apache como en nginx, que son los que mas tenemos en estos momentos, recomiendo mucho aprender a desplegar front en angular y Vue, esto para comprender algunos despliegues a internet como los de microsites y confianza, proyectos que a nivel de vue, es importante conocer de los routes y las config locales de cada archivo, asi como en angular, en la bookstack se tiene algunas guias que para algunos proyectos estan vigentes.
+
+tambien les adjunto unos links de teoria y ejecucion devops que en mi caso me ayudaron bastante en los basico y contemplo como unas de las mejores guias para trabajar.

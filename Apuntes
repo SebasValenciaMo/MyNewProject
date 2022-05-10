@@ -12,9 +12,50 @@ Como sacar un archivo de un proyecto
 
 Para publicar un proyecto front en appmaster
 
- Ir a git y sacar el link donde dice clone dentro del proyecto
+ Ir a git y sacar el link donde dice clone dentro del proyecto (cuando es angualar)
  Dirigirse al servidor de appmaster y llegar a la ubicación donde debe colocarse.
  Copiar el git clone
  Hacer un npm install
  Hacer un npm update
 
+ Publicar Proyecto front en mios Angular
+
+ git clone y el proyecto
+ npm install
+ configurar envieroment con el 
+ copiar ruta del html dentro del dist
+ 
+
+Configuracion del .conf de un proyecto público
+
+server {
+
+    #listen 8086;
+
+    #server_name 172.17.8.6:8086;
+    server_name olimpicas.mysoul.software;
+    root /usr/share/nginx/html/tabletsfront/www;
+    #root /var/www/projects/front/tabletsFront/www;
+    index index.html index.htm;
+
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/olimpicas.mysoul.software/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/olimpicas.mysoul.software/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+server {
+    if ($host = olimpicas.mysoul.software) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    listen 80;
+    server_name olimpicas.mysoul.software;
+    return 404; # managed by Certbot
+
+
+}

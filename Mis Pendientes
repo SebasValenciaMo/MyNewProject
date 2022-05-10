@@ -1,6 +1,12 @@
-- Poner caso en Nutanix para borrar la máquina de prims central nuevo
 - Estudiar administracion de Nutanix
-- Terminar el despliegue de el back de health en DEMO
 - Conocer mas a cerca del Crontab
 - Aprender a programar Node js, php, pyton
 - Actualizar archivo de deployments
+- Self-service con la Prims Central
+- Archivos de las Auditorias
+  1. Se soluciona con el documento de Hardening del AppMaster, y si, si tenemos Logs
+  2. Documentar por qué no se ha actualizado PHP >> Como no se puede actualizar, no se puede modificar el codigo para añadir logs en el desarrollo. Se está solucionando con la migracion a MySoul
+  3. Documentar el proceso de actualizacinoes de servicios/ servidor (ej. Epel-release, php, nginx, apache2) o si es posible, añadir cronograma.
+
+- Hardening
+- Ansible

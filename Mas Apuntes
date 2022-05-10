@@ -115,6 +115,7 @@ mysql -u Architect -h 172.17.7.141 -p (-u = user -h = host -p = pass)
 grep DB_HOST */.env
 useradd -m -g wheel -s /bin/bash -c "Cristian" cristianwp
 ssh -o TCPKeepAlive=yes -o ServerAliveInterval=15 root@172.16.7.206
+grep DB_USERNAME */.env
 
 
 Ingresar al Ambiente Solicitado
@@ -157,13 +158,46 @@ Registro de gitlab en el servidor
 gitlab-runner register \
      --tls-ca-file=/etc/gitlab-runner/cert/gitlab.groupcos.com.cert.crt \
      --non-interactive \
-     --url https://gitlab.groupcos.com \
-     --registration-token T5kK2xRKaeScXPGsDqc4 \
-     --name chat-back-develop \
-     --tag-list chat-back-develop \
+     --url https://gitlab.groupcos.com/ \
+     --registration-token PUbqNPT9LQgtu_-hq433 \
+     --name miosself-front-develop \
+     --tag-list miosself-front-develop \
      --executor shell
 
 
 Comando para ver la conexion de los puertos
 
 netstat -ltup
+
+
+Certificaciones linux
+LPA linux
+
+Configuracion git en servidor
+
+[root@DEV_APPMASTER_PROJECTS_PROD .git]# cat config
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+[remote "origin"]
+        url = git@gitlab.groupcos.com:j.silva/app-delima-inbount.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+
+
+api_auth:'http://micro-auth.groupcos.com/api',
+  CIU: 'http://back-micromios.groupcos.com/api/',
+  BPMS: 'http://back-microsbpms.groupcos.com/api/',
+  RRHH: 'http://back-microrrhh.groupcos.com/api/',
+  CRM: 'http://back-microexpress.groupcos.com/api/',
+  PQRS: 'http://back-micropqrs.groupcos.com/api/',
+  NOMINA: 'http://back-micronomina.groupcos.com/api/',
+  MAIL: 'http://back-micromailcore.groupcos.com/api/',
+  JURIDICA: ''
+
+backendojt.groupcos.com 8.6
+back-ojt.groupcos.com 9.133
+qa-ojt.groupcos.com 8.12
+demo-backojt.groupcos.com 9.181
+pre-backojt.groupcos.com 8.13
