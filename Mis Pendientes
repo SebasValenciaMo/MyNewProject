@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - Estudiar administracion de Nutanix
 - Conocer mas a cerca del Crontab
 - Aprender a programar Node js, php, pyton
@@ -10,3 +11,14 @@
 
 - Hardening
 - Ansible
+=======
+- Poner caso en Nutanix para borrar la máquina de prims central nuevo
+- Estudiar administracion de Nutanix
+- Conocer mas a cerca del Crontab
+- Aprender a programar Node js, php, pyton
+- Actualizar archivo de deployments
+- https://sentrio.io/blog/que-es-jenkins/
+- Crear Maquina Para carlos sapuyes
+- Realizar despliegue con la ip publica para Carlos Carreño
+- Llenar los documentos de auditoria
+>>>>>>> 591af886dbf0124091042de95d9fb59713f4692f
