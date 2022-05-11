@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Se ubica en la ruta que se necesita clonar el proyecto se copia la ruta de Gitlab
 
 git clone git@gitlab.groupcos.com:armando.celis/appencuestasatisfaccionback.git --branch=QA
