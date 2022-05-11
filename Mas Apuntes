@@ -206,6 +206,10 @@ Configurar el correoe
 git config  user.email "c.rodriguez@montechelo.com.co"
 git config user.name "Camilo Rodriguez"
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 730f128fe6fdcfe87126856d5a1a9004562e6144
 Comando para ver el historial de los merge
 
 git log
