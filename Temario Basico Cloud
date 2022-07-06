@@ -28,7 +28,7 @@ Motores web
 para organizar operacion y tener mas claro el proceso de despliegue, mi recomendacion es la siguiente:
 
 Aprender GIT, practicar con archivos en texto plano y entender la logica de versionamiento.
-realizar procesos de despliegue con projectos laravel, lumen, nodejs, proyectos de JS, esto ayudara a enterder mejor los procesos de instalacion y despliegue de los backend, es necesario instalar todos los paquetes y librerias desde cero, la mejor guia es subir todo un proyecto desde cero, existen guias en internet de como subir un proyecto php con nginx y php-fpm, recomiendo seguirlo.
+Realizar procesos de despliegue con projectos laravel, lumen, nodejs, proyectos de JS, esto ayudara a enterder mejor los procesos de instalacion y despliegue de los backend, es necesario instalar todos los paquetes y librerias desde cero, la mejor guia es subir todo un proyecto desde cero, existen guias en internet de como subir un proyecto php con nginx y php-fpm, recomiendo seguirlo.
 
 instalaciones de los motores web y entender publicando projectos, tanto en apache como en nginx, que son los que mas tenemos en estos momentos, recomiendo mucho aprender a desplegar front en angular y Vue, esto para comprender algunos despliegues a internet como los de microsites y confianza, proyectos que a nivel de vue, es importante conocer de los routes y las config locales de cada archivo, asi como en angular, en la bookstack se tiene algunas guias que para algunos proyectos estan vigentes.
 
