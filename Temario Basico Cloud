@@ -33,3 +33,12 @@ Realizar procesos de despliegue con projectos laravel, lumen, nodejs, proyectos 
 instalaciones de los motores web y entender publicando projectos, tanto en apache como en nginx, que son los que mas tenemos en estos momentos, recomiendo mucho aprender a desplegar front en angular y Vue, esto para comprender algunos despliegues a internet como los de microsites y confianza, proyectos que a nivel de vue, es importante conocer de los routes y las config locales de cada archivo, asi como en angular, en la bookstack se tiene algunas guias que para algunos proyectos estan vigentes.
 
 tambien les adjunto unos links de teoria y ejecucion devops que en mi caso me ayudaron bastante en los basico y contemplo como unas de las mejores guias para trabajar.
+
+
+=========== Links Importantes ===========
+
+1. https://hyperhci.com/2019/06/26/nutanix-guest-tool-ngt-installations-benefits-in-windows-and-linux-vm/    ///Intalacion de NGT (Nutanix guest tools)\\\
+
+2. https://edutin.com/curso-de-nginx-4087#certificate Curso para ser el putas en Nginx
+
+3. https://www.youtube.com/watch?v=p8QOnty6rSU&list=PLT98CRl2KxKHKd_tH3ssq0HPrThx2hESW&index=1   Curso de 90 horas de linux
