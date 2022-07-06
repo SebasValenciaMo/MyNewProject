@@ -1,7 +1,5 @@
 Como sacar un archivo de un proyecto
 
- #rsync -azv /var/www/mios/mios-backend/mios-coaching-back-v2/storage/logs
- #rsync -azv /var/www/mios/mios-backend/mios-coaching-back-v2/storage/logs/laravel.log .
  rsync -azv root@172.17.8.12:/var/www/mios/mios-backend/mios-coaching-back-v2/storage/logs/laravel.log .
 
  Saber donde estoy parado
