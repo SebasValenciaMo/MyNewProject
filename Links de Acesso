@@ -7,4 +7,11 @@ http://appmaster.groupcos.com/appmaster/index.php Appmaster
 https://172.17.8.20:8443/#!/login HYCU
 https://bookstack.groupcos.com/login Bookstack
 https://repo.groupcos.com/ Nuevo Gitlab
-
+http://172.17.9.150:8080/login?from=%2F Jenkins
+https://mysoul.groupcos.com/login Mysoul!
+https://trello.com/b/Yfc9C24L/junio-cloud   Dashboard de trello
+https://172.17.8.76/login  Controller de Nginx (apigateway)
+https://cloud.linode.com/linodes    Linode
+http://172.17.8.41:8080/cgi-bin/   NAS
+https://virtualdesk.montechelo.com.co/vpn/index.html   Citrix
+https://172.17.8.20:8443/#!/login   HYCU
