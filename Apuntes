@@ -65,3 +65,9 @@ Contraseña: Montechelo2021*
 
 -Base Wordpress Microsites
 Contraseña: Montechelo2021*
+
+
+define("HOST_SS","172.66.7.111");
+define("DATABASE_SS","AZTECA");
+define("USER_SS","desarrollo");
+define("PASSWORD_SS","D3s4rr01l02019*");
