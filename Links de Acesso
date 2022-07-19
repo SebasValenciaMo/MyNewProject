@@ -1,17 +1,64 @@
-https://helpdesk.groupcos.com/index.php?redirect=%2Ffront%2Fhelpdesk.public.php&error=3 GLPI
-https://172.17.7.2:9440/console/#login Nutanix Site7
-https://172.30.7.139:9440/console/#login Nutanix Cra 7
-http://graphana.groupcos.com:3000/login Grafana
-https://172.17.8.27:9443/#!/home Portainer
-http://appmaster.groupcos.com/appmaster/index.php Appmaster
-https://172.17.8.20:8443/#!/login HYCU
-https://bookstack.groupcos.com/login Bookstack
-https://repo.groupcos.com/ Nuevo Gitlab
-http://172.17.9.150:8080/login?from=%2F Jenkins
-https://mysoul.groupcos.com/login Mysoul!
-https://trello.com/b/Yfc9C24L/junio-cloud   Dashboard de trello
+[GLPICOS]
+https://helpdesk.groupcos.com/index.php?redirect=%2Ffront%2Fhelpdesk.public.php&error=3
+=== User:sebastian.valencia === Pass:Montechelo2023*
+
+[Nutanixsite7]
+https://172.17.7.2:9440/console/#login
+=== User: sebastian_valencia === Pass:Montechelo2021*
+
+[NutanixCra7]
+https://172.30.7.139:9440/console/#login
+=== User: sebastian_valencia === Pass: Montechelo2021*
+
+[Graphana]
+http://graphana.groupcos.com:3000/login
+
+[Portainer]
+https://172.17.8.27:9443/#!/home
+
+[Appmaster]
+http://appmaster.groupcos.com/appmaster/index.php
+
+[HYCU]
+https://172.17.8.20:8443/#!/login
+
+[Bookstack]
+https://bookstack.groupcos.com/login
+
+[GitlabRepo]
+https://repo.groupcos.com/
+=== User:s.valencia@montechelo.com.co  === Pass:Montechelo2023*
+
+[Jenkins]
+http://172.17.9.150:8080/login?from=%2F
+=== User:sebastian_valencia  === Pass:Montechelo2022*
+
+[Mysoul]
+https://mysoul.groupcos.com/login
+=== User:sebastian.valencia  === Pass:Vamos123*
+
+[Trello]
+https://trello.com/b/Yfc9C24L/junio-cloud   
+
+
+
 https://172.17.8.76/login  Controller de Nginx (apigateway)
-https://cloud.linode.com/linodes    Linode
+
+
+[Linode]
+https://cloud.linode.com/linodes
+=== User:sebastian_valencia  === Pass:Montechelo2021*
+
 http://172.17.8.41:8080/cgi-bin/   NAS
+
+
+
 https://virtualdesk.montechelo.com.co/vpn/index.html   Citrix
+
+
+
 https://172.17.8.20:8443/#!/login   HYCU
+
+[Aranda]
+https://arandasoft.adsumst.com:45441/USDKV8/index.aspx#/login/?tokenBranding=
+Pendiente User y contrasaña
