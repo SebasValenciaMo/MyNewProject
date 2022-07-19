@@ -62,3 +62,7 @@ https://172.17.8.20:8443/#!/login   HYCU
 [Aranda]
 https://arandasoft.adsumst.com:45441/USDKV8/index.aspx#/login/?tokenBranding=
 Pendiente User y contrasaña
+
+[Mynutanix]
+https://my.nutanix.com/page/login?type=samlsso_notification.do?client_id=J7AXR8KC83qQADuQh1orRWyn8uga&commonAuthCallerPath=%2Foauth2%2Fauthorize&forceAuth=false&passiveAuth=false&redirect_uri=https%3A%2F%2Fmy.nutanix.com%2Fapi%2Fv1%2Fauth%2Fwso2%2Fcallback&response_type=code&scope=openid&state=successRedirect%3Dhttps%253A%252F%252Fmy.nutanix.com%252F&tenantDomain=carbon.super&sessionDataKey=e871e09e-d434-4aee-bc94-32a6ffebb293&relyingParty=J7AXR8KC83qQADuQh1orRWyn8uga&type=oidc&sp=gatekeeper&isSaaSApp=false
+=== User: it@cos.com.co === Pass: 3Edcvfr45tgb*
