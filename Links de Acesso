@@ -41,19 +41,21 @@ https://mysoul.groupcos.com/login
 https://trello.com/b/Yfc9C24L/junio-cloud   
 
 
-
-https://172.17.8.76/login  Controller de Nginx (apigateway)
+[Controller de Nginx(apigateway)]
+https://172.17.8.76/login
+=== User:s.valencia@montechelo.com.co  === Pass:Montechelo2021*
 
 
 [Linode]
 https://cloud.linode.com/linodes
 === User:sebastian_valencia  === Pass:Montechelo2021*
 
-http://172.17.8.41:8080/cgi-bin/   NAS
+[NAS]
+http://172.17.8.41:8080/cgi-bin/
+=== User:sebastian.valencia  === Pass: Montechelo2021*
 
-
-
-https://virtualdesk.montechelo.com.co/vpn/index.html   Citrix
+[Citrix]
+https://virtualdesk.montechelo.com.co/vpn/index.html
 
 
 
